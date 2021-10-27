@@ -1,0 +1,7 @@
+node ("slave1") {
+    git url: "https://github.com/vpohomii/docker-dummy.git", branch:"main"
+    docker.build ("vnp79/alpine-curl:latest") 
+    
+    
+    
+}
